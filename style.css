@@ -3,7 +3,7 @@
     --green: #1ED760;
     --gray: #919496;
     --header-height: 80px;
-    --logo-height: 40px;
+    --logo-height: 70px;
 }
 
 * {
@@ -27,7 +27,7 @@ li {
 }
 
 header {
-    background-color: #1b56af;
+    background-color: #d0db3c;
     height: var(--header-height);
 }
 
@@ -66,7 +66,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    color: var(--green);
+    color: red;
     cursor: pointer;
 }
 
@@ -78,4 +78,12 @@ header nav.mobile-menu {
 header nav.mobile-menu img {
     width: 25px;
     height: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin: auto;
 }

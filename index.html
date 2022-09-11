@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
 
-    <title>Learning is everything - Spoify</title>
+    <title>Tennis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
+    
 
     <script src="https://kit.fontawesome.com/1af3d7e4a4.js" crossorigin="anonymous"></script>
 </head>
@@ -38,7 +41,24 @@
 
     <main>
         <section1>
-            
+            <div class="cardLinks" id="cardLink${idLink}">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">${title}</h5>
+                        <p class="card-text">
+                        ${description}
+                        </p>
+                        <a href="${link}" class="btn btn-primary">
+                            Go !   
+                        </a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">By ${surName} ${foreName}</small>
+                        <button onclick="deleteLink(${idLink})" class="btn btn-danger btn-delete-link"><i class="bi bi-trash3"></i></button>
+                        <button onclick="editLinkModal(${idLink})" class="btn btn-info btn-delete-link"><i class="bi bi-pen"></i></button>
+                    </div>
+                </div>
+            </div>
         </section1>
     </main>
 
