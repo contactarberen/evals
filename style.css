@@ -3,7 +3,7 @@
     --green: #1ED760;
     --gray: #919496;
     --header-height: 80px;
-    --logo-height: 40px;
+    --logo-height: 70px;
 }
 
 * {
@@ -27,7 +27,7 @@ li {
 }
 
 header {
-    background-color: #1b56af;
+    background-color: #d0db3c;
     height: var(--header-height);
 }
 
@@ -66,7 +66,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    color: var(--green);
+    color: red;
     cursor: pointer;
 }
 
@@ -78,4 +78,41 @@ header nav.mobile-menu {
 header nav.mobile-menu img {
     width: 25px;
     height: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+main section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; 
+    gap: 50px;
+}
+
+main section1 .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; 
+    min-width:350px;
+}
+
+
+main section1 .card .card-title {
+    font-size: 3rem;
+}
+
+main section1 .card .card-text {
+    font-size: 1.5rem;
+}
+
+main section1 .card .btn {
+    font-size: 1.5rem;
 }
