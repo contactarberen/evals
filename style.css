@@ -87,3 +87,32 @@ main {
     height: 100%;
     margin: auto;
 }
+
+main section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; 
+    gap: 50px;
+}
+
+main section1 .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; 
+    min-width:350px;
+}
+
+
+main section1 .card .card-title {
+    font-size: 3rem;
+}
+
+main section1 .card .card-text {
+    font-size: 1.5rem;
+}
+
+main section1 .card .btn {
+    font-size: 1.5rem;
+}

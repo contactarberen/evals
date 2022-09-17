@@ -8,9 +8,10 @@
     <meta name="description" content="">
 
     <title>Tennis</title>
+    <link rel="shortcut icon" href="./media/favicon.jpggit" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon">
+    
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
     
@@ -23,7 +24,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="./media/logo_tennis.jpg" alt="">
+                <img src="./media/terrain_terre_battue.jpg" alt="">
             </div>
             <nav class="desktop-menu">
                 <ul>
@@ -41,22 +42,48 @@
 
     <main>
         <section1>
-            <div class="cardLinks" id="cardLink${idLink}">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">${title}</h5>
-                        <p class="card-text">
-                        ${description}
-                        </p>
-                        <a href="${link}" class="btn btn-primary">
-                            Go !   
-                        </a>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">By ${surName} ${foreName}</small>
-                        <button onclick="deleteLink(${idLink})" class="btn btn-danger btn-delete-link"><i class="bi bi-trash3"></i></button>
-                        <button onclick="editLinkModal(${idLink})" class="btn btn-info btn-delete-link"><i class="bi bi-pen"></i></button>
-                    </div>
+            <div class="card mb-3" style="width: 80%">
+                <img class="card-img-top" src="./media/cours_de_tennis_bg.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Le club de tennis est situé dans le 3ème arrondissement, proche de la place de la Liberté.</h5>
+                  <p class="card-text">Nous vous offrons tous niveaux de pratique du tennis, à la fois pour les enfants et les adultes, que
+                    vous soyez <b>débutant</b> ou tennismn <b>confirmé</b>, et que vous désiriez pratiquer en <b>loisir</b> ou en 
+                    <b>compétition.</b><br>
+                    Les enseignements pour les enfants sont assurés par Mr.Dupont, ancien chanpion de tennis et diplômé d'état (BE2 + certificat INSEP)
+                    et professionnelle reconnu.<br>
+                    Les entrainements ont lieu dans un gymnase en hiver, et en plein air les autres saisons, à deux pas de la place de la liberté, proche
+                    des 2e,3e,4e et 6ème arrondissements.<br>
+                    La formation met l'accent sur la progression individuelle et sur le plaisir d'apprendre. Elle prépare aux compétitions et passage de 
+                    diplômes.
+                  </p>
+                  <a href="#" class="btn btn-primary">Voir les tarifs </a>
+                </div>
+              </div>
+            
+            <div class="card mb-3" style="width: 33%">
+                <img class="card-img-top" src="./media/logo_tennis.jpg" width="300"  height="300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Horaires</h5>
+                    <p class="card-text"><b>ENFANTS</b><br> le mardi de 17h30 à 19h00<br>le mercredi de 15h à 16h30<br>le vendredi de 17h30 à 19h00<br>
+                        Venir 15 minutes avant le début de la séance.<br>
+                        <b>ADULTES et ADOS</b><br>le lundi de 19h00 à 21h30<br>le mercredi de 19h30 à 22h<br>le vendredi de 19h à 22h
+                    </p>
+                    <a href="#" class="btn btn-primary">Voir les terrains</a>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="width: 33%">
+                <img class="card-img-top" src="./media/balle_tournante.jpg" width="300"  height="300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nos valeurs en 3 points</h5>
+                    <p class="card-text"><b>Une pratique en toute sécurité</b><br>Débutant ou confirmé, vous pouvez louer tout le matériel nécessaire
+                        à la pratique de votre sport préféré.<br><b>Des entraînements de qualité</b><br>Ils sont axés à l fois autour d'échauffements
+                        collectifs, d'assauts libes et à thèmes, animés par votre professeur, de mini-compétitions individuelles ou par équipes et également
+                        de leçons individuelles.<br><b>Nous portons des valeurs qui incarnent l'esprit sportif</b><br>
+                        Ces valeurs nourrissent notre esprit sportif autant que notre esprit associatif : Jeu, défi, passion, coordination, tactique, endurance, 
+                        souplesse, solidarité, mental, technique, équilibren respect.
+                    </p>
+                    <a href="#" class="btn btn-primary">Voir les évènements</a>
                 </div>
             </div>
         </section1>
