@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root {
-    --green: #1ED760;
-    --gray: #919496;
-    --header-height: 80px;
-    --logo-height: 70px;
-}
 
 * {
     box-sizing: border-box;
@@ -22,13 +16,18 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
 li {
     list-style: none;
 }
 
 header {
     background-color: #d0db3c;
-    height: var(--header-height);
+    height: 80%;
 }
 
 header .container {
@@ -44,7 +43,7 @@ header .logo {
 }
 
 header .logo img {
-    height: var(--logo-height);
+    height: 70%;
     align-self: center;
 }
 
@@ -113,6 +112,66 @@ main section1 .card .card-text {
     font-size: 1.5rem;
 }
 
+main section1 .red_price {
+    display: inline-block;
+    color: red;
+    font-size: 5rem;
+    padding-right: 1rem;
+}
+
 main section1 .card .btn {
     font-size: 1.5rem;
+}
+
+footer {
+    background-color: #d0db3c;
+}
+
+footer section.container_footer {
+    width: 70%;
+    margin: auto;
+    padding: 6rem 0 4rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .logo_footer img:hover {
+    cursor: pointer;
+}
+
+footer .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-evenly;
+}
+
+footer .links ul li {
+    font-size: 1.5rem;
+    padding: 1.3rem;
+}
+
+footer .links ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .links ul .heading {
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+footer .links ul .heading:hover {
+    color: #919496;
+    cursor: text;
+}
+
+footer .copyright {
+    width: 100%;
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 10rem;
+    justify-content: center;
 }
