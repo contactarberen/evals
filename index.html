@@ -8,7 +8,7 @@
     <meta name="description" content="">
 
     <title>Tennis</title>
-    <link rel="shortcut icon" href="./media/favicon.jpggit" type="image/x-icon">
+    <link rel="shortcut icon" href="./media/favicon.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     
@@ -24,14 +24,14 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="./media/terrain_terre_battue.jpg" alt="">
+                <img src="./media/terrain_terre_battue.jpg" width=200px height=200px alt="">
             </div>
             <nav class="desktop-menu">
                 <ul>
-                    <li>Le club</li>
-                    <li>Evenements</li>
-                    <li>Tarifs</li>
-                    <li>Les terrains</li>
+                    <li><a href="./index.html">Le club</a></li> 
+                    <li><a href="./evenements.html">Evenements</a></li>
+                    <li><a href="./tarifs.html">Tarifs</a></li>
+                    <li><a href="./terrains.html">Les terrains</a></li>
                 </ul>
             </nav>
             <nav class="mobile-menu">
@@ -56,19 +56,19 @@
                     La formation met l'accent sur la progression individuelle et sur le plaisir d'apprendre. Elle prépare aux compétitions et passage de 
                     diplômes.
                   </p>
-                  <a href="#" class="btn btn-primary">Voir les tarifs </a>
+                  <a href="./tarifs.html" class="btn btn-primary">Voir les tarifs </a>
                 </div>
               </div>
             
             <div class="card mb-3" style="width: 33%">
                 <img class="card-img-top" src="./media/logo_tennis.jpg" width="300"  height="300" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Horaires</h5>
+                    <h5 class="card-title">Horaires</h5><br>
                     <p class="card-text"><b>ENFANTS</b><br> le mardi de 17h30 à 19h00<br>le mercredi de 15h à 16h30<br>le vendredi de 17h30 à 19h00<br>
-                        Venir 15 minutes avant le début de la séance.<br>
+                        Venir 15 minutes avant le début de la séance.<br><br>
                         <b>ADULTES et ADOS</b><br>le lundi de 19h00 à 21h30<br>le mercredi de 19h30 à 22h<br>le vendredi de 19h à 22h
                     </p>
-                    <a href="#" class="btn btn-primary">Voir les terrains</a>
+                    <a href="./terrains.html" class="btn btn-primary">Voir les terrains</a>
                 </div>
             </div>
 
@@ -83,16 +83,39 @@
                         Ces valeurs nourrissent notre esprit sportif autant que notre esprit associatif : Jeu, défi, passion, coordination, tactique, endurance, 
                         souplesse, solidarité, mental, technique, équilibren respect.
                     </p>
-                    <a href="#" class="btn btn-primary">Voir les évènements</a>
+                    <a href="./evenements.html" class="btn btn-primary">Voir les évènements</a>
                 </div>
             </div>
         </section1>
     </main>
 
     <footer>
-        
+        <section class="container_footer">
+            <div class="logo_footer">
+                <img src="./media/terrain_terre_battue.jpg" width="200"  height="200" alt="">
+            </div>
+            <div class="links">
+                <div class="company">
+                    <ul>
+                        <li class="heading">COMPANY</li>
+                        <li><a href="./a_propos.html">A propos</a></li>
+                        <li><a href="./terrains.html">Les terrains</a></li>
+                    </ul>
+                </div>
+              
+                <div class="useful-links">
+                    <ul>
+                        <li class="heading">USEFUL LINKS</li>
+                        <li><a href="./evenements.html">Nos évènements</a></li>
+                        <li><a href="https://www.fft.fr/">Fédération Française de Tennis</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                @ 2022 - Tennis Association Club
+            </div>
+        </section>
     </footer>
-
 </body>
 
 </html>

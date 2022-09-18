@@ -1,14 +1,4 @@
-@media (min-width:1279px) {}
-
-@media (max-width:1279px) {
-    
-}
-
 @media (max-width:768px) {
-    :root {
-        --header-height: 60px;
-        --logo-height: 70px;
-    }
     header nav.desktop-menu {
         display: none;
     }
@@ -17,9 +7,3 @@
     }
 }
 
-@media (max-width:480px) {
-    :root {
-        --header-height: 50px;
-        --logo-height: 65px;
-    }
-}
